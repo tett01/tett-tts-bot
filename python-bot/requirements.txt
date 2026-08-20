@@ -1,0 +1,6 @@
+discord.py[voice]>=2.7.1
+edge-tts>=7.0.0
+python-dotenv>=1.0.1
+# 호스팅에 ffmpeg가 없을 경우를 대비한 번들 바이너리 (약 47MB)
+# 시스템에 ffmpeg가 있으면 그쪽을 우선 사용합니다.
+imageio-ffmpeg>=0.5.1

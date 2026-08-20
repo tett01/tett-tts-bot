@@ -1,0 +1,21 @@
+# 비밀 정보 — 절대 커밋 금지
+.env
+.env.local
+*.token
+
+# 실행 중 생성되는 파일
+bot.lock
+settings.json
+*.log
+
+# 파이썬
+.venv/
+__pycache__/
+*.py[cod]
+
+# 빌드 산출물
+deploy/
+*.zip
+
+# macOS
+.DS_Store
